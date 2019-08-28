@@ -5,6 +5,10 @@ La realización es simple , rápida y demás te brinda un flujo intuitivo y boni
 
 # Avances
 
+v 0.4
+Más emociones, cambio de escala y UI 
+![alt text](https://i.imgur.com/delLkOp.png)
+
 v 0.3
 Ahora el flujo usa emoticones dependiendo de la escala de emociones 
 ![alt text](https://i.imgur.com/Xxf1da2.jpg)
@@ -16,3 +20,4 @@ Flujo con cambio de color
 v 0.1
 Flujo inicial de prueba
 ![alt text](https://i.imgur.com/tRXJQak.jpg)
+
