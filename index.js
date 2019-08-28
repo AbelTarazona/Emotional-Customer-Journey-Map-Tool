@@ -50,7 +50,7 @@ function addEmotion() {
             ctx.fillText("🙂", x_inicial, y_inicial - 5);
             break;
         case 4:
-            emotion_def = 'Triste';
+            emotion_def = 'Pasable';
             x_inicial += 50;
             y_inicial = 280;
             ctx.lineTo(x_inicial, y_inicial);
@@ -58,7 +58,7 @@ function addEmotion() {
             ctx.fillText("😐", x_inicial, y_inicial - 5);
             break;
         case 3:
-            emotion_def = 'Desesperado';
+            emotion_def = 'Mmm';
             x_inicial += 50;
             y_inicial = 310;
             ctx.lineTo(x_inicial, y_inicial);
@@ -66,7 +66,7 @@ function addEmotion() {
             ctx.fillText("😕", x_inicial, y_inicial - 5);
             break;
         case 2:
-            emotion_def = 'Desesperado';
+            emotion_def = 'Lo odio';
             x_inicial += 50;
             y_inicial = 340;
             ctx.lineTo(x_inicial, y_inicial);
@@ -84,6 +84,6 @@ function addEmotion() {
 // https://stackoverflow.com/questions/279749/detecting-the-system-dpi-ppi-from-j
 // s-css
 
-function alerta(emotionFromView) {
+function seleccionarEmocion(emotionFromView) {
     emotion = emotionFromView;
 }
