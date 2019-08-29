@@ -55,24 +55,24 @@
                         <div class="row" style="text-align: center;">
                             <!-- Default auto-sizing form -->
 
-                                <!-- Grid row -->
-                                <div class="form-row align-items-center" style="width: 50%; margin: 0 auto;">
-                                    <!-- Grid column -->
-                                    <div class="col-9">
-                                        <!-- Default input -->
-                                        <label class="sr-only" for="inlineFormInput">Name</label>
-                                        <input type="text" class="form-control mb-2" id="inlineFormInput"
-                                            placeholder="Ingrese actividad">
-                                    </div>
-                                    <!-- Grid column -->
-
-                                    <!-- Grid column -->
-                                    <div class="col-auto">
-                                        <button onclick="addEmotion()" class="btn btn-primary btn-md mt-0">Agregar</button>
-                                    </div>
+                            <!-- Grid row -->
+                            <div class="form-row align-items-center" style="width: 50%; margin: 0 auto;">
+                                <!-- Grid column -->
+                                <div class="col-9">
+                                    <!-- Default input -->
+                                    <label class="sr-only" for="txtActivity">Name</label>
+                                    <input type="text" class="form-control mb-2" id="txtActivity"
+                                        placeholder="Ingrese actividad">
                                 </div>
-                                <!-- Grid row -->
-   
+                                <!-- Grid column -->
+
+                                <!-- Grid column -->
+                                <div class="col-auto">
+                                    <button onclick="addEmotion()" class="btn btn-primary btn-md mt-0">Agregar</button>
+                                </div>
+                            </div>
+                            <!-- Grid row -->
+
                             <!-- Default auto-sizing form -->
                         </div>
 
@@ -84,14 +84,44 @@
         <div class="row" style="margin-top: 10px">
             <div class="col-md-12">
                 <div class="card">
+
                     <div class="card-body">
-                        <canvas id="myCanvas" width="1000" height="500" style="border:1px solid #d3d3d3;">
+                            <button onclick="toImg()" class="btn btn-secondary btn-md mt-0" style="float: right; margin-bottom: 20px">Convertir a imagen</button>
+
+                        <canvas id="myCanvas" width="1095" height="500" style="border:1px solid #d3d3d3;">
                             Your browser does not support the HTML5 canvas tag.</canvas>
                     </div>
                 </div>
                 <p style="text-align: center; padding-top: 10px">© Abel Tarazona - 2019</p>
             </div>
         </div>
+
+        <!-- MODAL -->
+        <!-- Full Height Modal Right -->
+        <div class="modal fade right" id="fullHeightModalRight" tabindex="-1" role="dialog"
+            aria-labelledby="myModalLabel" aria-hidden="true">
+
+            <!-- Add class .modal-full-height and then add class .modal-right (or other classes from list above) to set a position to the modal -->
+            <div class="modal-dialog modal-full-height modal-right" role="document">
+
+
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title w-100" id="myModalLabel">Imagen</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body" id="canvito" style="overflow-x: auto;">
+                        <p>Click derecho -> Guardar imagen como</p>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Full Height Modal Right -->
 
 
 
