@@ -6,6 +6,10 @@ La realización es simple , rápida y demás te brinda un flujo intuitivo y boni
 # Avances
 
 v 0.4
+Se añadio las actividades y conversión a imagen
+![alt text](https://i.imgur.com/Y12g3k0.png)
+
+v 0.4
 Más emociones, cambio de escala y UI 
 ![alt text](https://i.imgur.com/delLkOp.png)
 
